@@ -59,5 +59,5 @@ Add categories or tags for posts
 
 Option to save posts in a backend database
 
-Author 
+Author :
 Raziyeh
