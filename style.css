@@ -1,0 +1,99 @@
+ body {
+     background: rgb(187, 229, 187)
+ }
+
+ .post {
+     border: 1px solid white;
+     border-radius: 4px;
+     box-shadow: 1px 3px 1px 0 rgb(178, 167, 167);
+     background: rgb(245, 244, 238);
+     margin: 15px;
+     padding: 0;
+ }
+
+ #div-posts {
+     margin-top: 20px;
+ }
+
+ #form-input {
+     padding: 30px;
+     padding-bottom: 0;
+     border: 1px solid white;
+     margin: 15px;
+     margin-top: 30px;
+     border-radius: 4px;
+ }
+
+ #input-title {
+     width: 80%;
+     margin-bottom: 10px;
+ }
+
+ #input-content {
+     width: 80%;
+     resize: none;
+ }
+
+ #btn-add {
+     margin: 15px;
+     background: green;
+ }
+
+ #btn-add:hover {
+     background-color: rgb(10, 156, 10);
+
+ }
+
+ hr {
+     margin: 0;
+     margin-bottom: 10px;
+     background: rgb(233, 215, 157);
+     height: 1px;
+ }
+
+ .post-header {
+     margin: 0;
+     display: flex;
+     justify-content: space-between;
+     background: rgb(243, 230, 207);
+     padding: 7px;
+ }
+
+ .delete {
+     flex: 1;
+     cursor: pointer;
+     color: brown;
+ }
+
+ .delete:hover {
+     font-size: 16px;
+ }
+
+ .edit:hover {
+     font-size: 16px;
+ }
+
+ p {
+     padding: 7px;
+ }
+
+ .title {
+     flex: 6;
+     color: brown;
+     font-size: 16px;
+ }
+
+ .edit {
+     flex: 1;
+     cursor: pointer;
+     color: orangered;
+ }
+
+ #btn-edit {
+     visibility: hidden;
+     background: orangered;
+ }
+
+ #btn-edit:hover {
+     background: red;
+ }
